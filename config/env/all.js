@@ -43,8 +43,10 @@ module.exports = {
 	assets: {
 		lib: {
 			css: [
-				'public/lib/bootstrap/dist/css/bootstrap.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				//'public/lib/bootstrap/dist/css/bootstrap.css',
+				//'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'public/lib/bootswatch/readable/bootstrap.css',
+				'public/lib/bootswatch/assets/css/bootswatch.min.css',
 			],
 			js: [
 				'public/lib/angular/angular.js',
